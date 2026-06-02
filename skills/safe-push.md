@@ -13,6 +13,7 @@ Use before publishing an existing branch.
 - Run `git remote -v`.
 - Run `git log --oneline -5`.
 - Confirm branch, remote, status, and commits with owner.
+- Treat "safe to push" as readiness for owner review, not permission to push.
 - Push only after approval.
 
 ## Commands
@@ -27,6 +28,7 @@ Use before publishing an existing branch.
 
 ## Owner Approval Gates
 - Required before every push.
+- Separate from any prior commit approval.
 
 ## Constraints
 - Do not force push.

@@ -25,6 +25,7 @@ Use when a repository needs a GitHub `origin`.
 - Wrong repo path.
 
 ## Owner Approval Gates
+- Required before adding a new remote.
 - Required before replacing or changing an existing remote.
 - Required before any push.
 

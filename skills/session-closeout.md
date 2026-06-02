@@ -14,6 +14,7 @@ Use after commits, investigation, stabilization, or before pausing.
 - Run `git log --oneline -5`.
 - Run `git diff --check`.
 - Report validation, changed files, risks, and next safe action.
+- Report "safe to commit" or "safe to push" only as owner-review readiness.
 
 ## Commands
 - `git status --short`
@@ -25,6 +26,7 @@ Use after commits, investigation, stabilization, or before pausing.
 - Required work remains unresolved.
 
 ## Owner Approval Gates
+- Required before committing.
 - Required before push, deletion, history rewrite, or branch cleanup.
 
 ## Constraints

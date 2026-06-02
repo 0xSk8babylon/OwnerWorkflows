@@ -12,6 +12,8 @@ End a session safely with verified state and a clear handoff.
 Closeout, validation, and continuity updates only when needed.
 
 ## Guardrails
+- Approval gates apply at milestone boundaries, not every in-scope edit.
+- "Safe to commit" and "safe to push" mean ready for owner review only.
 - Do not push without owner approval.
 - Do not hide dirty state.
 - Do not create closeout commits for unrelated changes.

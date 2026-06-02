@@ -13,6 +13,7 @@ Use after a local repo has commits, a clean status, and a configured remote.
 - Run `git remote -v`.
 - Run `git log --oneline -5`.
 - Confirm branch, remote, and commits.
+- Treat "safe to push" as readiness for owner review, not permission to push.
 - Ask owner approval before pushing.
 - Push normally and verify status.
 
@@ -28,6 +29,7 @@ Use after a local repo has commits, a clean status, and a configured remote.
 
 ## Owner Approval Gates
 - Required before first push.
+- Separate from commit approval.
 
 ## Constraints
 - Do not force push.

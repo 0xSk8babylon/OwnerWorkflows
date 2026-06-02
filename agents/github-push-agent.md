@@ -12,6 +12,7 @@ Remote configuration and normal pushes only.
 - Push an approved branch with a normal non-force push.
 
 ## Prohibited Actions
+- Treat "safe to push" as permission to push.
 - Push without owner approval.
 - Force push or rewrite history.
 - Publish from dirty, wrong, or ambiguous repo state.

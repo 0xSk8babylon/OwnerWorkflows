@@ -13,6 +13,7 @@ Only files belonging to the milestone.
 
 ## Guardrails
 - Do not stage unrelated changes.
+- "Safe to commit" means ready for owner review, not permission to commit.
 - Do not commit failed validation without owner approval.
 - Do not push automatically after commit.
 
@@ -23,9 +24,10 @@ Only files belonging to the milestone.
 4. Stage only approved files.
 5. Run `git diff --cached --check`.
 6. Run `git diff --cached --stat`.
-7. Commit with the approved message.
-8. Run `git status --short`.
-9. Run `git log --oneline -3`.
+7. Stop for explicit owner commit approval.
+8. Commit with the approved message.
+9. Run `git status --short`.
+10. Run `git log --oneline -3`.
 
 ## Validation
 - `git diff --check`

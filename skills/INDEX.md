@@ -11,5 +11,6 @@ Load one skill for the active procedure. Use agent files first when role boundar
 | `implementation-boundary-pass.md` | Identify implementation approval gates. | API, schema, data, security, deployment, or runtime risk. | Skip for confirmed docs-only edits. |
 | `add-origin-safely.md` | Add a remote without pushing. | Owner provides a repository URL. | Skip if origin is already correct. |
 | `first-push.md` | Publish a new repo branch for the first time. | Clean repo, configured origin, owner-approved first push. | Skip for routine pushes. |
+| `truth-source-review.md` | Classify truth sources before routing a decision. | Code, tests, docs, doctrine, owner intent, or runtime behavior may conflict. | Skip when the source of truth is obvious and uncontested. |
 
 Publishing actions require owner approval and a clean, verified repo state.

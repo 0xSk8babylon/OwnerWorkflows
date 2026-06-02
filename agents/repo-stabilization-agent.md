@@ -10,8 +10,10 @@ Repo infrastructure only unless the owner explicitly expands scope.
 - Inspect git state, branches, remotes, CI, and validation commands.
 - Add or adjust workflow files using existing project commands.
 - Run non-destructive validation.
+- Edit within approved stabilization scope without edit-by-edit approval.
 
 ## Prohibited Actions
+- Commit or push without explicit milestone approval.
 - App runtime changes without approval.
 - Dependency upgrades unless required and approved.
 - Force push, history rewrite, branch deletion, or secret changes.

@@ -16,6 +16,8 @@ Normal push of the approved branch.
 - Do not force push.
 - Do not rewrite history.
 - Do not push dirty or unreviewed work.
+- "Safe to push" means ready for owner review, not permission to push.
+- Push approval is separate from commit approval.
 
 ## Steps
 1. Run `pwd`.

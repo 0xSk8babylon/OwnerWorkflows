@@ -14,6 +14,7 @@ Use for CI, validation, branch workflow, remote, or git hygiene work.
 - Inspect existing workflow and validation files.
 - Use existing commands before adding tooling.
 - Run `git diff --check`.
+- Edit within approved stabilization scope without asking on every file edit.
 
 ## Commands
 - `git log --oneline -10`
@@ -27,6 +28,7 @@ Use for CI, validation, branch workflow, remote, or git hygiene work.
 - New dependencies are needed.
 
 ## Owner Approval Gates
+- Commit and push milestones.
 - Publishing.
 - Destructive changes.
 - Branch policy changes.

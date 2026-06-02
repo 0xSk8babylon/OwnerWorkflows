@@ -13,6 +13,7 @@ Only files approved for the milestone.
 
 ## Guardrails
 - Do not stage unrelated files.
+- "Safe to commit" means ready for owner review, not permission to commit.
 - Do not commit until owner approves.
 - Do not push as part of review.
 
