@@ -4,6 +4,8 @@ Load the smallest relevant file first. Use follow-up files only when the active 
 
 | Situation | Load first | Optional follow-up |
 | --- | --- | --- |
+| Product/workflow sequencing | `orchestrators/product-orchestrator.md` | `orchestrators/doctrine-orchestrator.md` when meaning or governance is involved |
+| Doctrine/governance boundary review | `orchestrators/doctrine-orchestrator.md` | `agents/docs-governance-agent.md` |
 | Starting a repo session | `codex-prompts/session-start.md` | `skills/session-closeout.md` |
 | Stabilizing unknown repo state | `agents/repo-stabilization-agent.md` | `skills/repo-stabilization.md` |
 | Docs-only milestone | `agents/docs-governance-agent.md` | `skills/docs-only-pass.md` |
