@@ -8,6 +8,50 @@ General workflow template- faster shipping, creates memory, bounds architecture,
 
 This repository does not contain app code, private project documentation, secrets, tokens, API keys, credentials, or project-specific implementation history.
 
+----use this prompt to install and use , delete lines 11-52 afterwards before install ----
+----Clone and use OwnerWorkflows as the workflow authority for this project.
+
+Repo:
+
+https://github.com/0xSk8babylon/OwnerWorkflows.git
+
+Instructions:
+
+1. Move to the parent/workspace directory above my project repo.
+2. Clone OwnerWorkflows as a sibling repo, not inside my project.
+3. Do not modify my project yet.
+4. Confirm the final layout:
+
+workspace/
+OwnerWorkflows/
+my-project/
+
+5. Read and apply OwnerWorkflows guidance from:
+
+* AGENTS.md
+* NAVIGATION.md
+* practices/
+* skills/
+* templates/
+* orchestrators/
+
+6. Start with repo-state inspection.
+7. Do not edit, commit, push, delete, rename, or move files until scope is clear and I approve.
+8. Separate doctrine, architecture, implementation, validation, and closeout.
+
+After setup and inspection, summarize:
+
+* OwnerWorkflows path
+* Project repo path
+* Current branch
+* Git status
+* Relevant workflow guidance found
+* Recommended workflow route
+* Decisions needed before edits
+---------
+
+
+
 ## Structure
 
 - `github-actions/`: reusable GitHub Actions workflow patterns and notes
