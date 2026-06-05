@@ -12,5 +12,11 @@ Load one skill for the active procedure. Use agent files first when role boundar
 | `add-origin-safely.md` | Add a remote without pushing. | Owner provides a repository URL. | Skip if origin is already correct. |
 | `first-push.md` | Publish a new repo branch for the first time. | Clean repo, configured origin, owner-approved first push. | Skip for routine pushes. |
 | `truth-source-review.md` | Classify truth sources before routing a decision. | Code, tests, docs, doctrine, owner intent, or runtime behavior may conflict. | Skip when the source of truth is obvious and uncontested. |
+| `scoped-automation-activation.md` | Validate temporary automation activation scope. | Owner requests automation for a bounded task, phase, or milestone. | Skip unless automation is explicitly activated. |
+| `hard-stop-boundary-enforcement.md` | Stop automation before prohibited high-risk actions. | Any temporary automation run. | Skip for non-automation work unless hard-stop review is needed. |
+| `automation-closeout-report.md` | Produce the required final automation report. | Closing a temporary automation run. | Skip before automation closeout. |
+| `local-milestone-commit.md` | Create an approved local commit without pushing. | Commit is explicitly allowed inside a bounded run. | Skip when commit permission is missing. |
+| `session-report-emailing.md` | Send an existing local report through an existing configured email sender. | Owner requests optional report email. | Skip when no local report artifact exists. |
+| `secret-boundary-enforcement.md` | Prevent automation from adding, exposing, requesting, or committing secrets. | Automation, external services, env files, or providers may enter scope. | Skip only when secrets are clearly irrelevant. |
 
 Publishing actions require owner approval and a clean, verified repo state.

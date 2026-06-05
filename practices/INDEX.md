@@ -19,3 +19,6 @@ Load one practice file for the operating question at hand.
 | `milestone-approval-gates.md` | Clarify commit/push approvals. | Reporting readiness or stopping at gates. |
 | `owner-intent-vs-implementation.md` | Keep product meaning and current behavior distinct. | Owner intent and implementation may diverge. |
 | `truth-source-classification.md` | Classify owner intent, doctrine, code, tests, docs, runtime behavior, gaps, drift, and evolution. | Sources disagree or routing is unclear. |
+| `boundary-before-execution.md` | Confirm repo, branch, scope, dirty state, prohibited actions, verification, and commit/push permission before automation. | Starting an automated run. |
+| `owner-controlled-escalation.md` | Separate routine safe automation from high-risk owner decisions. | A run may need escalation or has unclear scope. |
+| `automation-run-lifecycle.md` | Define activation, safe work, hard stops, verification, optional local commit, and owner decision boundary. | Running or reviewing temporary automation. |

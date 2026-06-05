@@ -10,5 +10,8 @@ Load one agent file for the role boundary, then load a skill only if procedure d
 | `ci-workflow-agent.md` | Review or add CI using existing commands. | GitHub Actions or validation changes. | Skip when CI is unrelated. |
 | `session-closeout-agent.md` | Verify final state and handoff. | End of task or session. | Skip during active implementation. |
 | `implementation-boundary-agent.md` | Classify runtime/API/schema/security boundaries. | Ambiguous planning vs implementation work. | Skip for simple read-only checks. |
+| `temporary-automation-orchestrator.md` | Run owner-activated routine automation inside a bounded scope. | Owner explicitly activates temporary automation. | Skip unless automation is explicitly activated. |
+| `automation-reporter.md` | Summarize a completed Codex run from logs or report artifacts. | Long run needs owner summary or email-ready report. | Skip during implementation. |
+| `stabilization-gatekeeper.md` | Verify repo state is safe and understandable before closeout. | End of automation run or uncertain closeout state. | Skip during early discovery. |
 
 Do not load every agent by default.

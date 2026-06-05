@@ -56,8 +56,15 @@ After setup and inspection, summarize:
 
 - `github-actions/`: reusable GitHub Actions workflow patterns and notes
 - `codex-prompts/`: reusable Codex operating prompts and session procedures
+- `agents/`: reusable Codex role boundaries and reporting agents
+- `orchestrators/`: workflow sequencers for owner-approved project motion
+- `skills/`: concise procedural checklists for deterministic repository work
+- `practices/`: reusable owner-control, validation, and boundary doctrine
+- `templates/`: reusable session, review, commit, and closeout templates
 - `branch-strategy/`: branch naming, default branch, and protection guidance
 - `pr-templates/`: pull request templates and review checklists
 - `closeout-checklists/`: session and milestone closeout procedures
 - `repo-setup/`: new repository setup steps and GitHub configuration notes
 - `project-templates/`: reusable starter structures for future projects
+
+Temporary automation workflow lives under `orchestrators/`, `agents/`, `skills/`, `practices/`, and `codex-prompts/`. It is owner-activated, scope-bound, local-first, and does not authorize push.

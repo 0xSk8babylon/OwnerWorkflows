@@ -24,6 +24,12 @@ Load the smallest relevant file first. Use follow-up files only when the active 
 | Session closeout | `agents/session-closeout-agent.md` | `skills/session-closeout.md` |
 | CI workflow review | `agents/ci-workflow-agent.md` | `skills/repo-stabilization.md` |
 | Implementation boundary control | `agents/implementation-boundary-agent.md` | `skills/implementation-boundary-pass.md` |
+| Temporary automation activation | `orchestrators/temporary-automation-orchestrator.md` | `skills/scoped-automation-activation.md` |
+| Temporary automation lifecycle | `orchestrators/automation-run-lifecycle.md` | `practices/automation-run-lifecycle.md` |
+| Automation hard-stop review | `skills/hard-stop-boundary-enforcement.md` | `practices/owner-controlled-escalation.md` |
+| Automation closeout report | `skills/automation-closeout-report.md` | `agents/stabilization-gatekeeper.md` |
+| Automation run summary | `agents/automation-reporter.md` | `codex-prompts/send-automation-report.md` only when email is requested |
+| Secret boundary review | `skills/secret-boundary-enforcement.md` | `practices/negative-constraints.md` |
 | Defining a milestone boundary | `practices/milestone-boundaries.md` | `templates/milestone-commit.md` |
 | Deciding docs-only vs implementation | `practices/docs-vs-implementation.md` | `skills/implementation-boundary-pass.md` |
 | Classifying truth sources | `practices/truth-source-classification.md` | `skills/truth-source-review.md` |
@@ -40,6 +46,7 @@ Load the smallest relevant file first. Use follow-up files only when the active 
 | Long-running session templates | `templates/start-new-session.md` | The matching file in `templates/` |
 | Architecture docs session | `templates/architecture-doc-session.md` | `skills/docs-only-pass.md` |
 | Implementation session | `templates/implementation-session.md` | `skills/implementation-boundary-pass.md` |
+| Local milestone commit | `skills/local-milestone-commit.md` | `templates/milestone-commit.md` |
 | Milestone commit | `templates/milestone-commit.md` | `templates/review-before-commit.md` |
 | PR description | `pr-templates/INDEX.md` | The matching PR template |
 
