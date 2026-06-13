@@ -74,6 +74,7 @@ Categories:
 | `skills/README.md` | project/reference doc | reference | Understand the skills folder scope. | Do not use as a checklist. |
 | `skills/add-origin-safely.md` | skill | active | Add an owner-provided remote without pushing. | Do not overwrite remotes without approval. |
 | `skills/automation-closeout-report.md` | skill | active | Produce a final automation report. | Do not claim verification that did not run. |
+| `skills/dependency-provenance-check.md` | skill | active | Review dependency evidence before approval. | Do not install, upgrade, or rewrite lockfiles during review. |
 | `skills/docs-only-pass.md` | skill | active | Make documentation-only changes. | Do not change app code or runtime behavior. |
 | `skills/first-push.md` | skill | active | First push after clean state and owner approval. | Do not use for routine pushes. |
 | `skills/hard-stop-boundary-enforcement.md` | skill | active | Stop before prohibited high-risk actions. | Do not use it to request bypasses inside automation. |

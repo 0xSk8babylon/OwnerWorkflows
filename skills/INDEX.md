@@ -9,6 +9,7 @@ Load one skill for the active procedure. Use agent files first when role boundar
 | `session-closeout.md` | Produce final verification and handoff. | End of task or before pausing. | Skip during initial discovery. |
 | `docs-only-pass.md` | Keep documentation changes runtime-neutral. | README, governance, templates, checklists. | Skip for runtime work. |
 | `implementation-boundary-pass.md` | Identify implementation approval gates. | API, schema, data, security, deployment, or runtime risk. | Skip for confirmed docs-only edits. |
+| `dependency-provenance-check.md` | Review dependency evidence before approval. | Proposed packages, tools, GitHub Actions, Docker images, registries, or installable third-party code. | Skip when no dependency addition, upgrade, install, or lockfile change is in scope. |
 | `add-origin-safely.md` | Add a remote without pushing. | Owner provides a repository URL. | Skip if origin is already correct. |
 | `first-push.md` | Publish a new repo branch for the first time. | Clean repo, configured origin, owner-approved first push. | Skip for routine pushes. |
 | `truth-source-review.md` | Classify truth sources before routing a decision. | Code, tests, docs, doctrine, owner intent, or runtime behavior may conflict. | Skip when the source of truth is obvious and uncontested. |

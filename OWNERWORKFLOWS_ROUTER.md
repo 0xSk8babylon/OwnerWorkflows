@@ -95,9 +95,9 @@ Each route below lists recommended files that currently exist. If an ideal speci
 | Field | Route |
 | --- | --- |
 | Recommended agent | `agents/implementation-boundary-agent.md` |
-| Recommended skill | `skills/truth-source-review.md`; specialized dependency/provenance skill is not currently present |
+| Recommended skill | `skills/dependency-provenance-check.md`; use `skills/truth-source-review.md` only when source conflicts or product meaning also need classification |
 | Required practices | `practices/truth-source-classification.md`, `practices/validation-by-scope.md`, `practices/negative-constraints.md` |
-| Recommended template | not currently present |
+| Recommended template | `Dependency Provenance Review` report template in `skills/dependency-provenance-check.md` |
 | Closeout checklist | `closeout-checklists/standard-closeout.md` |
 | Hard stops | Dependency installs/upgrades, provider changes, external services, secrets, security/permission changes, deploys. |
 | Stop and ask owner | If review would require installing packages, changing lockfiles, contacting external services, or making security claims beyond inspected evidence. |
@@ -107,9 +107,9 @@ Each route below lists recommended files that currently exist. If an ideal speci
 | Field | Route |
 | --- | --- |
 | Recommended agent | `agents/repo-stabilization-agent.md` |
-| Recommended skill | Specialized lockfile/package safety skill is not currently present; use `skills/repo-stabilization.md` only for repo-state and validation boundaries |
+| Recommended skill | `skills/dependency-provenance-check.md`; use `skills/repo-stabilization.md` only for repo-state and validation boundaries |
 | Required practices | `practices/repo-state-inspection.md`, `practices/validation-by-scope.md`, `practices/non-destructive-git.md`, `practices/negative-constraints.md` |
-| Recommended template | not currently present |
+| Recommended template | `Dependency Provenance Review` report template in `skills/dependency-provenance-check.md` |
 | Closeout checklist | `closeout-checklists/standard-closeout.md` |
 | Hard stops | Package installs, dependency upgrades, lockfile rewrites, external registries, scripts with side effects, deploys, security/permission changes unless approved. |
 | Stop and ask owner | If the task requires installing, updating, regenerating, or deleting package manager files. |
