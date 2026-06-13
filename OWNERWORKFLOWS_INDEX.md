@@ -37,8 +37,8 @@ Categories:
 | `repo-setup/` | skill | active | Use for remote setup, first push, or safe push procedures. | Do not use unless publishing or remote setup is in scope. |
 | `branch-strategy/` | project/reference doc | reference | Use for branch naming or default-branch decisions. | Do not change branch policy without owner approval. |
 | `project-templates/` | example/reference only | reference | Inspect starter structure notes for future repositories. | Do not apply to an existing project by default. |
-| `docs/` | project/reference doc | unknown | Local worktree has untracked docs requiring owner classification. | Do not route to untracked docs as canonical GitHub workflow source. |
-| `pr-templates/` | template | unknown | Tracked in git history but currently deleted from the local worktree. | Do not route to local PR templates until owner resolves availability. |
+| `docs/` | project/reference doc | active | Inspect workflow reference summaries after routing through the entrypoint. | Do not use docs as a substitute for the router or task-specific workflow files. |
+| `pr-templates/` | template | active | Select one PR template for the matching change type. | Do not use PR templates as approval to merge, push, or bypass review. |
 
 ## Root Files
 
@@ -184,26 +184,24 @@ Categories:
 | `github-actions/README.md` | github action workflow doc | reference | Inspect reusable GitHub Actions notes. | Do not add secrets or change CI behavior without approval. |
 | `project-templates/README.md` | example/reference only | reference | Review future project skeleton notes. | Do not apply to an existing repo by default. |
 
-## PR Templates Availability Note
-
-The following files are tracked in git history but were deleted in the local worktree during this index update. Treat them as `unknown` until the owner resolves the working tree state.
+## PR Templates
 
 | Path | Category | Status | When to use | When not to use |
 | --- | --- | --- | --- | --- |
-| `pr-templates/INDEX.md` | template | unknown | Route to one PR template after availability is restored. | Do not route to it while deleted locally. |
-| `pr-templates/README.md` | project/reference doc | unknown | Understand PR template scope after availability is restored. | Do not use while deleted locally. |
-| `pr-templates/ci-change.md` | template | unknown | CI-change PR description after availability is restored. | Do not use while deleted locally. |
-| `pr-templates/docs-change.md` | template | unknown | Docs-change PR description after availability is restored. | Do not use while deleted locally. |
-| `pr-templates/implementation-change.md` | template | unknown | Implementation-change PR description after availability is restored. | Do not use while deleted locally. |
-| `pr-templates/stabilization-change.md` | template | unknown | Stabilization PR description after availability is restored. | Do not use while deleted locally. |
+| `pr-templates/INDEX.md` | template | active | Choose one PR template for the change type. | Do not load every PR template by default. |
+| `pr-templates/README.md` | project/reference doc | reference | Understand PR template scope. | Do not use as a task procedure. |
+| `pr-templates/ci-change.md` | template | active | CI-change PR description. | Do not use for unrelated implementation, docs, or stabilization work. |
+| `pr-templates/docs-change.md` | template | active | Docs-change PR description. | Do not use for runtime behavior changes. |
+| `pr-templates/implementation-change.md` | template | active | Implementation-change PR description. | Do not use to bypass validation or owner review. |
+| `pr-templates/stabilization-change.md` | template | active | Stabilization PR description. | Do not use for feature implementation without an approved implementation route. |
 
-## Local Untracked Markdown
+## Workflow Reference Docs
 
-The following file was present as untracked local markdown during this index update. Treat it as non-canonical until the owner commits or otherwise classifies it.
+Workflow reference docs summarize existing workflow contracts. Route through `AGENTS.md`, `OWNERWORKFLOWS_INDEX.md`, and `OWNERWORKFLOWS_ROUTER.md` before using them.
 
 | Path | Category | Status | When to use | When not to use |
 | --- | --- | --- | --- | --- |
-| `docs/workflow-contract-summary.md` | unknown/requires owner classification | unknown | Only after owner classifies it as part of the canonical GitHub workflow source. | Do not route to it while it remains untracked local context. |
+| `docs/workflow-contract-summary.md` | project/reference doc | active | Review summarized workflow file purposes, inputs, outputs, prompt contracts, approval gates, and hard stops. | Do not use it instead of the router or task-specific workflow files. |
 
 ## Owner Hard Stops
 
