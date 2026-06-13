@@ -100,6 +100,7 @@ Categories:
 | `practices/context-routing.md` | practice | active | Reduce context load before selecting docs. | Do not load directories by habit. |
 | `practices/deferred-decisions.md` | practice | active | Track unresolved choices without forcing them. | Do not resolve owner decisions by inference. |
 | `practices/docs-vs-implementation.md` | practice | active | Separate docs-only work from runtime work. | Do not let docs imply unimplemented behavior. |
+| `practices/lockfile-integrity.md` | practice | active | Review lockfiles as the approved dependency install boundary. | Do not treat lockfile rewrites as noise. |
 | `practices/local-first-push-later.md` | practice | active | Separate local commit quality from publishing. | Do not treat push readiness as approval. |
 | `practices/milestone-approval-gates.md` | practice | active | Clarify commit and push approval boundaries. | Do not combine commit and push approval. |
 | `practices/milestone-boundaries.md` | practice | active | Define reviewable milestone scope. | Do not turn a milestone into a broad refactor. |

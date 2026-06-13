@@ -14,6 +14,7 @@ Load one practice file for the operating question at hand.
 | `non-destructive-git.md` | Avoid unsafe git operations. | Any branch/history action is possible. |
 | `local-first-push-later.md` | Commit locally before publishing. | GitHub visibility is not immediate. |
 | `validation-by-scope.md` | Match validation to change risk. | Choosing tests/checks. |
+| `lockfile-integrity.md` | Treat lockfiles as the approved dependency install boundary. | Reviewing lockfile changes, dependency drift, frozen installs, or package manager output. |
 | `context-routing.md` | Reduce token load by routing first. | Deciding what to read. |
 | `negative-constraints.md` | Make prohibited actions explicit. | Scope needs guardrails. |
 | `milestone-approval-gates.md` | Clarify commit/push approvals. | Reporting readiness or stopping at gates. |

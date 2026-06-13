@@ -108,8 +108,8 @@ Each route below lists recommended files that currently exist. If an ideal speci
 | --- | --- |
 | Recommended agent | `agents/repo-stabilization-agent.md` |
 | Recommended skill | `skills/dependency-provenance-check.md`; use `skills/repo-stabilization.md` only for repo-state and validation boundaries |
-| Required practices | `practices/repo-state-inspection.md`, `practices/validation-by-scope.md`, `practices/non-destructive-git.md`, `practices/negative-constraints.md` |
-| Recommended template | `Dependency Provenance Review` report template in `skills/dependency-provenance-check.md` |
+| Required practices | `practices/lockfile-integrity.md`, `practices/repo-state-inspection.md`, `practices/validation-by-scope.md`, `practices/non-destructive-git.md`, `practices/negative-constraints.md` |
+| Recommended template | `Lockfile Integrity Review` report template in `practices/lockfile-integrity.md` |
 | Closeout checklist | `closeout-checklists/standard-closeout.md` |
 | Hard stops | Package installs, dependency upgrades, lockfile rewrites, external registries, scripts with side effects, deploys, security/permission changes unless approved. |
 | Stop and ask owner | If the task requires installing, updating, regenerating, or deleting package manager files. |
