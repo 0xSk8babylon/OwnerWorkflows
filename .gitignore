@@ -1,0 +1,102 @@
+# Environment files that may contain API keys or secrets
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+.env.test
+!.env.example
+!.env.*.example
+
+# API keys, tokens, OAuth, webhooks, and local credentials
+*api-key*
+*apikey*
+*api_keys*
+*token*
+*secret*
+*secrets*
+*oauth*
+*webhook*
+*service-role*
+*service_role*
+*credential*
+*credentials*
+*.local
+*.secret
+*.secrets
+*.token
+*.credentials
+
+# Cloud and service credential files
+google-credentials.json
+firebase-credentials.json
+service-account.json
+service_account.json
+gcloud-*.json
+aws-credentials
+azure-credentials
+
+# Database and connection secret files
+*database-url*
+*database_url*
+*db-url*
+*db_url*
+*connection-string*
+*connection_string*
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Preserve safe examples and templates
+!*example*
+!*template*
+!*sample*
+!*placeholder*
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Generated reports and local output
+reports/
+coverage/
+dist/
+build/
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
